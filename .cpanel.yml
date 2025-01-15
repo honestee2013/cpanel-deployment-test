@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/quikerf/public_html/testing_testing/
-    -/bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/quikerf/public_html/testing_testing
+  -/bin/cp -R * $DEPLOYPATH
