@@ -18,6 +18,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html/  # Or the correct folder in your cPanel
+          server-dir: /public_html/app/  # Or the correct folder in your cPanel
           protocol: "ftps"
 
